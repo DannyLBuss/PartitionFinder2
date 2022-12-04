@@ -1,0 +1,22 @@
+conda create -n envNAM python=2.7
+conda activate envNAM
+pip install Cython==0.22.1
+pip install numpy==1.7.1
+pip install pandas==0.9.1
+pip install numexpr==2.4.1
+brew install hdf5
+brew install c-blosc
+export HDF4_DIR=/opt/homebrew/opt/hdf5
+export BLOSC_DIR=/opt/homebrew/opt/c-blosc
+conda install h5py
+pip install numpy==1.7.1
+export HDF5_DIR=/opt/homebrew/opt/hdf5
+pip install tables==3.1.0
+pip install pyparsing==1.5.4
+pip install scipy==0.16.1
+pip install sklearn
+conda install pytables
+pip install numpy==1.16.1
+pip install pandas==0.24.2
+pip install numexpr==2.7.0
+pip install h5py==2.10.0
